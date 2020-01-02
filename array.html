@@ -6,5 +6,31 @@
 </head>
 <body>
 
+    <script type="text/javascript">
+        let myArray = new Array();
+        myArray[0] = "pizza";
+        myArray[1] = "chocolate";
+
+        // alert(myArray[0]);
+        console.log(myArray);
+        // number of elements in array = myArray.length
+        console.log("myArrayLength : " + myArray.length);
+
+        let tweets = ["Morning everybody!", "I love coffee!"];
+        tweets.push("Back to work!"); // we add Back to work!
+        alert(tweets[1]);
+        console.log(tweets);
+
+        tweets.splice(1, 1); // we delete I love coffee!
+        console.log(tweets);
+
+        tweets.splice(1, 0, "Cornflakes for breakfast!"); // add Cornflakes for breakfast! after element 0 without deleting
+        console.log(tweets);
+
+        tweets.splice(1, 1); // we delete Cornflakes for breakfast!
+        tweets.splice(1, 1, "Cornflakes for breakfast!"); // add Cornflakes for breakfast! after element deleting Back to work!
+        console.log(tweets);
+    </script>
+
 </body>
 </html>
