@@ -11,7 +11,7 @@ Released under the MIT license: http://jsbin.mit-license.org
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Il ciclo While in JS</title>
+  <title>While in JS</title>
 <style>
 form {
   border: 2px solid red;
@@ -23,16 +23,16 @@ form {
   <form name="data" id="data"></form>
 <script>
 window.addEventListener('DOMContentLoaded', function(){
-  var f = document.getElementById('data');
+  let f = document.getElementById('data');
 
-  colors = ['red', 'green', 'blue', 'yellow'];
+  let colors = ['red', 'green', 'blue', 'yellow'];
 
-  var combo = document.createElement('select');
+  let combo = document.createElement('select');
 
   while(colors.length)
   {
-      var colore = colors.pop();
-      var opt = new Option(colore, colore);
+      let colore = colors.pop();
+      let opt = new Option(colore, colore);
       combo.options[combo.options.length] = opt;
   }
   f.appendChild(combo);
