@@ -14,6 +14,10 @@
 
     <button id="secondButton">Append text</button>
 
+    <p id="emptyParagraph"></p>
+
+    <button id="createParagraph">Create text</button>
+
     <script type="text/javascript">
 
         // BUTTON 1
@@ -25,6 +29,11 @@
         // BUTTON 2 : append text
         document.getElementById("secondButton").onclick = function () {
             document.getElementById("secondParagraph").innerHTML = document.getElementById("secondParagraph").innerHTML + "awesome!";
+        };
+
+        // BUTTON 3
+        document.getElementById("createParagraph").onclick = function () {
+            document.getElementById("emptyParagraph").innerHTML = "<span>Hi there!</span>";
         };
 
     </script>
