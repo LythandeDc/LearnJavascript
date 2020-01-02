@@ -6,17 +6,25 @@
 </head>
 <body>
 
-    <input type="text">
-    <button>Change the text!</button>
-    <p>This is some text</p>
+    <input type="text" id="textInput">
+    <button id="textChanger">Change the text!</button>
+    <p id="text">This is some text</p>
 
     <script type="text/javascript">
+        /*
         var x = 5;
         x = 20;
         alert(x);
 
         var name = "Anto";
         alert(name);
+         */
+        document.getElementById("textChanger").onclick = function () {
+            var textEntered = ""; // initialise
+            textEntered = document.getElementById("textInput").value;
+
+            document.getElementById("text").innerText = textEntered;
+        };
     </script>
 
 </body>
