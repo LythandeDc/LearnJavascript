@@ -11,7 +11,7 @@
 7. Variables : variables.html
 8. Array : array.html
 9. IF : conditions.html
-10. Mini Jame in JS
+10. Mini Jame in JS : howmanyfingers.html
 11. Loops : loops.html
 12. While Loop : whileloop.html
 13. Functions : functions.html
