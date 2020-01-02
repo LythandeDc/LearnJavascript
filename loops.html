@@ -5,6 +5,18 @@
     <title>Loops</title>
 </head>
 <body>
+    <div id="tweetDiv"></div>
+
+    <script type="text/javascript">
+        let tweetString = "";
+        let tweets = ["Hi everyone!", "I love cornflakes!", "Night night :)", "Sweet dreams!"];
+
+        for (let i = 0; i < tweets.length; i++) {
+            tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+        }
+
+        document.getElementById("tweetDiv").innerHTML = tweetString;
+    </script>
 
 </body>
 </html>
