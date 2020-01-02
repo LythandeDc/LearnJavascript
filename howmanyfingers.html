@@ -13,11 +13,9 @@
 
         document.getElementById("checkGuess").onclick = function() {
 
-            let randomNumber = Math.random();
-
-            randomNumber = randomNumber * 6;
-
-            randomNumber = Math.floor(randomNumber);
+            let randomNumber = Math.random(); // random number
+            randomNumber = randomNumber * 6; // random number between 0 and 5 (5.2, 5.6 ...)
+            randomNumber = Math.floor(randomNumber); // Math.floor == integer
 
             if (document.getElementById("guess").value == randomNumber)
             {
