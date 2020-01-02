@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by LythandeDc (http://jsbin.com/qaluyiv/7/edit || https://www.develop4fun.com/)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Il ciclo While in JS</title>
+<style>
+form {
+  border: 2px solid red;
+  height: 200px;
+}
+</style>
+</head>
+<body>
+  <form name="data" id="data"></form>
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+  var f = document.getElementById('data');
+
+  colors = ['red', 'green', 'blue', 'yellow'];
+
+  var combo = document.createElement('select');
+
+  while(colors.length)
+  {
+      var colore = colors.pop();
+      var opt = new Option(colore, colore);
+      combo.options[combo.options.length] = opt;
+  }
+  f.appendChild(combo);
+});
+</script>
+</body>
+</html>
