@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change style with Javascript</title>
+</head>
+<body>
+    <p id="moreText">This is a text</p>
+    <button id="styleText">Style text</button>
+
+    <script type="text/javascript">
+        // BUTTON
+        document.getElementById("styleText").onclick = function () {
+            document.getElementById("moreText").style.color = "red";
+            document.getElementById("moreText").style.fontSize = "50px";
+        };
+    </script>
+
+</body>
+</html>
