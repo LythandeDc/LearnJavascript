@@ -6,17 +6,28 @@
 </head>
 <body>
 
-<p id="text">Hello World!</p>
+    <p id="text">Hello World!</p>
 
-<button id="myButton">Change text</button>
+    <button id="myButton">Change text</button>
 
-<script type="text/javascript">
+    <p id="secondParagraph">Javascript is ...</p>
 
-    document.getElementById("myButton").onclick = function () {
-        // alert("Button clicked");
-        document.getElementById("text").innerHTML = "Hello User!";
-    }
+    <button id="secondButton">Append text</button>
 
-</script>
+    <script type="text/javascript">
+
+        // BUTTON 1
+        document.getElementById("myButton").onclick = function () {
+            // alert("Button clicked");
+            document.getElementById("text").innerHTML = "Hello User!";
+        };
+
+        // BUTTON 2
+        document.getElementById("secondButton").onclick = function () {
+            // alert("Button clicked");
+            document.getElementById("secondParagraph").innerHTML = "Hello User!";
+        };
+
+    </script>
 
 </body>
