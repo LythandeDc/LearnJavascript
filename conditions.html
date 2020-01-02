@@ -12,7 +12,12 @@
         <input type="text" id="magicWord">
     </p>
 
+    <p>
+        <button id="checkMagicWord">Check</button>
+    </p>
+
     <script type="text/javascript">
+        /*
         let x = 1;
 
         if (x == 1)
@@ -23,6 +28,20 @@
         {
             alert("x is not 1.");
         }
+         */
+        document.getElementById("checkMagicWord").onclick = function () {
+            let magicWordEnter = document.getElementById("magicWord").value;
+            let magicWord = "abracadabra";
+
+            if(magicWordEnter == magicWord)
+            {
+                alert("You got it!");
+            }
+            else
+            {
+                alert("Nope, try again!");
+            }
+        };
     </script>
 
 </body>
