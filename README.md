@@ -2,18 +2,22 @@
 ### Author: https://www.develop4fun.com
 ####  List of JavaScript Exercises : JavaScript Basic
 
-1. Add button & Event onclick : addbutton.html
-2. DOM : dom.html
-3. Onclick : onclick.html
-4. Edit the page content : editcontent.html
-5. Change style with Javascript : changestyle.html
-6. Exercise  : Create circles and disappear onclick : circles.html 
-7. Variables : variables.html
-8. Array : array.html
-9. IF : conditions.html
-10. Mini Jame in JS : howmanyfingers.html
-11. Loops : loops.html
-12. While Loop : whileloop.html
-13. Functions : functions.html
-14 : Exercise, Hours To Seconds : hoursToSeconds.html
-15. External scripts : externalScripts.html
+1. Output : documentWrite
+2. Output : inner HTML
+3. Output 
+4. Output : Window Alert
+5. Add button & Event onclick : addbutton.html
+6. DOM : dom.html
+7. Onclick : onclick.html
+8. Edit the page content : editcontent.html
+9. Change style with Javascript : changestyle.html
+10. Exercise  : Create circles and disappear onclick : circles.html 
+11. Variables : variables.html
+12. Array : array.html
+13. IF : conditions.html
+14. Mini Jame in JS : howmanyfingers.html
+15. Loops : loops.html
+16. While Loop : whileloop.html
+17. Functions : functions.html
+18 : Exercise, Hours To Seconds : hoursToSeconds.html
+19. External scripts : externalScripts.html
