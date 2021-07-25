@@ -39,3 +39,18 @@ Courses links :
 17. Functions : functions.html
 18 : Exercise, Hours To Seconds : hoursToSeconds.html
 19. External scripts : externalScripts.html
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://www.develop4fun.com/assets/images/elements/CONTRIBUTORS.svg?style=for-the-badge
+[contributors-url]: https://github.com/LythandeDc/TheHiddenIsland/graphs/contributors
+[forks-shield]: https://www.develop4fun.com/assets/images/elements/forks.svg?style=for-the-badge
+[forks-url]: https://github.com/LythandeDc/TheHiddenIsland/network/members
+[stars-shield]: https://www.develop4fun.com/assets/images/elements/stars.svg?style=for-the-badge
+[stars-url]: https://github.com/LythandeDc/TheHiddenIsland/stargazers
+[issues-shield]: https://www.develop4fun.com/assets/images/elements/ISSUESOPEN.svg?style=for-the-badge
+[issues-url]: https://github.com/LythandeDc/TheHiddenIsland/issues
+[license-shield]: https://www.develop4fun.com/assets/images/elements/LICENSEMIT.svg?style=for-the-badge
+[license-url]: https://github.com/LythandeDc/TheHiddenIsland/blob/master/LICENSE.txt
+[linkedin-shield]: https://www.develop4fun.com/assets/images/elements/LINKEDIN.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/company/71767248
+[product-screenshot]: https://thehiddenisland.d4fgames.com/wp-content/uploads/2021/07/the-hidden.png
