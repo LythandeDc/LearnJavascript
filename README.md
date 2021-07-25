@@ -42,15 +42,15 @@ Courses links :
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://www.develop4fun.com/assets/images/elements/CONTRIBUTORS.svg?style=for-the-badge
-[contributors-url]: https://github.com/LythandeDc/TheHiddenIsland/graphs/contributors
+[contributors-url]: https://github.com/LythandeDc/LearnJavascript/graphs/contributors
 [forks-shield]: https://www.develop4fun.com/assets/images/elements/forks.svg?style=for-the-badge
-[forks-url]: https://github.com/LythandeDc/TheHiddenIsland/network/members
+[forks-url]: https://github.com/LythandeDc/LearnJavascript/network/members
 [stars-shield]: https://www.develop4fun.com/assets/images/elements/stars.svg?style=for-the-badge
-[stars-url]: https://github.com/LythandeDc/TheHiddenIsland/stargazers
+[stars-url]: https://github.com/LythandeDc/LearnJavascript/stargazers
 [issues-shield]: https://www.develop4fun.com/assets/images/elements/ISSUESOPEN.svg?style=for-the-badge
-[issues-url]: https://github.com/LythandeDc/TheHiddenIsland/issues
+[issues-url]: https://github.com/LythandeDc/LearnJavascript/issues
 [license-shield]: https://www.develop4fun.com/assets/images/elements/LICENSEMIT.svg?style=for-the-badge
-[license-url]: https://github.com/LythandeDc/TheHiddenIsland/blob/master/LICENSE.txt
+[license-url]: https://github.com/LythandeDc/LearnJavascript/blob/master/LICENSE.txt
 [linkedin-shield]: https://www.develop4fun.com/assets/images/elements/LINKEDIN.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/71767248
-[product-screenshot]: https://thehiddenisland.d4fgames.com/wp-content/uploads/2021/07/the-hidden.png
+[product-screenshot]: https://www.develop4fun.fr/wp-content/uploads/2021/05/SocialLogo-3.png
