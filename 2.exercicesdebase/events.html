@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Events</title>
+    </head>
+
+    <body>
+        <div id="domtest">Inquiquez votre nom</div>
+        <input type="text" id="username" value="Antonella" />
+        <input type="button" value="Cliquez-moi" onclick="actionDuClick()">
+
+        <script type="text/javascript">
+            function actionDuClick()  {
+                var objDiv = document.getElementById("username");
+                var value = objDiv.value;
+                alert("Bonjour " + value + " !");
+            }
+        </script>
+    </body>
+</html>

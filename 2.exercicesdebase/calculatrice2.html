@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculatrice</title>
+    </head>
+
+    <body>
+        a:<input type="text" id="a" value="" />  
+        b:<input type="text" id="b" value="" />  =  
+        <span id="result"></span>  <br>  
+        <input type="button" value="+" onClick="additionFunc()" />  
+        <input type="button" value="-" onClick="subtractionFunc()" />  
+        <input type="button" value="*" onClick="multiFunc()" />  
+        <input type="button" value="/" onClick="divisFunc()" />  
+        <script type="text/javascript">  
+        
+        function additionFunc() {  
+            var aObj = document.getElementById("a");  
+            var bObj = document.getElementById("b");  
+            var resultObj = document.getElementById("result");  
+            var a = parseInt(aObj.value); // Convertir une chaîne en entier  
+            var b = parseInt(bObj.value);  resultObj.innerHTML = a + b;  
+        }  
+        
+        function subtractionFunc() {  
+            var aObj = document.getElementById("a");  
+            var bObj = document.getElementById("b");  
+            var resultObj = document.getElementById("result");  
+            var a = parseInt(aObj.value); // Convertir une chaîne en entier  
+            var b = parseInt(bObj.value);  
+            resultObj.innerHTML = a - b;  
+        }  
+
+        function multiFunc() {  
+            var aObj = document.getElementById("a");  
+            var bObj = document.getElementById("b");  
+            var resultObj = document.getElementById("result");  
+            var a = parseInt(aObj.value); // Convertir une chaîne en entier  
+            var b = parseInt(bObj.value);  
+            resultObj.innerHTML = a * b;  
+        } 
+
+        function divisFunc() {  
+            var aObj = document.getElementById("a");  
+            var bObj = document.getElementById("b");  
+            var resultObj = document.getElementById("result");  
+            var a = parseInt(aObj.value); // Convertir une chaîne en entier  
+            var b = parseInt(bObj.value);  
+            resultObj.innerHTML = a / b;  
+        }  
+        </script>
+
+    </body>
+</html>

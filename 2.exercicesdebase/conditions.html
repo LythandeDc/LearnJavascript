@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Les conditions</title>
+    </head>
+
+    <body>
+
+    Score:  
+    <br>  
+    <input type="text" style="width:30px" id="score" value="1" />  
+    
+    <script type="text/javascript"> 
+     function addscore() {  
+         var scoreObj = document.getElementById("score");  
+         var value = parseInt(scoreObj.value);  
+         value++;
+         scoreObj.value = value;  
+        }  
+
+        function decreasescore() {  
+            var scoreObj = document.getElementById("score");  
+            var value = parseInt(scoreObj.value);  
+            value--;
+            scoreObj.value = value;  
+        }  
+    </script>
+
+
+    </body>
+
+</html>

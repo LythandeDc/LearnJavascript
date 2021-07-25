@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Les opérateurs</title>
+    </head>
+
+    <body>
+
+    Numéro de jeux:  
+    <br>  
+    <input type="text" style="width:30px" id="quantity" value="1" />  
+    <input type="button" value="+" onClick="addQuantity()" />  
+    <input type="button" value="-" onClick="decreaseQuantity()" />  
+    
+    <script type="text/javascript"> 
+     function addQuantity() {  
+         var quantityObj = document.getElementById("quantity");  
+         var value = parseInt(quantityObj.value);  
+         value++;
+         quantityObj.value = value;  
+        }  
+
+        function decreaseQuantity() {  
+            var quantityObj = document.getElementById("quantity");  
+            var value = parseInt(quantityObj.value);  
+            value--;
+            quantityObj.value = value;  
+        }  
+    </script>
+
+
+    </body>
+
+</html>
